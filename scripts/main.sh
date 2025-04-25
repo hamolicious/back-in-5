@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+PLUGIN_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 center_text_block() {
   local term_width
   term_width=$(tput cols)
@@ -24,7 +26,7 @@ center_text_block() {
 } | center_text_block
 
 
-art_path="$PLUGIN_DIR/scripts/assets"
+art_path="$PLUGIN_DIR/assets"
 icons=($(ls $art_path))
 art_file="$art_path/${icons[RANDOM % ${#icons[@]}]}"
 
