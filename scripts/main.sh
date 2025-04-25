@@ -24,7 +24,7 @@ center_text_block() {
 } | center_text_block
 
 
-art_path="$PLUGIN_DIR/scripts/assets/back_in_5_icons"
+art_path="$PLUGIN_DIR/scripts/assets"
 icons=($(ls $art_path))
 art_file="$art_path/${icons[RANDOM % ${#icons[@]}]}"
 
