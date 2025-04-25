@@ -19,7 +19,7 @@ set -g @plugin 'hamolicious/back-in-5'
 
 Once installed and `tmux` enviornment reloaded. Simply use `<prefix>b`.
 
-![](https://i.ibb.co/HDBxjmgD/2025-04-26-00-14.png)
+![](https://i.ibb.co/HT0cCsHW/2025-04-26-00-14.png)
 
 ## References
 
