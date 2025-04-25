@@ -19,6 +19,10 @@ set -g @plugin 'hamolicious/back-in-5'
 
 Once installed and `tmux` enviornment reloaded. Simply use `<prefix>b`.
 
+The dashboard shows the time the command was ran, this is so your partner can guestimate how much longer you will be.
+
+Lastly, a random asciiart animal is attached at the bottom in case your partner gets bored.
+
 ![](https://i.ibb.co/HT0cCsHW/2025-04-26-00-14.png)
 
 ## References
