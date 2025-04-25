@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 center_text_block() {
   local term_width
