@@ -46,7 +46,7 @@ echo ""
 echo "🏃 Back Shortly"
 ```
 
-`BACK_IN_5_ART_PATH`: A path containing any text files, they will be rendered as a "2D block" of text to ensure ascii art is not messed with. Uses the bundled ascii art animals directory curated from https://www.asciiart.eu/
+`BACK_IN_5_ART_PATH`: A path containing any text files, they will be rendered as a "2D block" of text to ensure ascii art is not messed with. Uses the bundled ascii art animals directory curated from https://www.asciiart.eu/ by default.
 
 `BACK_IN_5_LAUNCH_KEY`: The key used to show the pane, default is `"b"`
 
