@@ -1,6 +1,6 @@
 # Back in 5
 
-Display a "back in 5" message over your `tmux` session.
+Display a "back in 5" message over your [`tmux`](https://github.com/tmux/tmux) session.
 
 > You are sharing your screen, pairing and your partner has to step out for a moment.
 > You decide to use the moment to fetch yourself another coffee.
@@ -9,7 +9,7 @@ Now obviously the sensible thing to do here is to ~~message them and let them kn
 
 ## Installation
 
-Add to `.tmux.conf` with TPM:
+Add to `.tmux.conf` with [TPM](https://github.com/tmux-plugins/tpm):
 
 ```tmux
 set -g @plugin 'hamolicious/back-in-5'
@@ -17,13 +17,13 @@ set -g @plugin 'hamolicious/back-in-5'
 
 ## Usage
 
-Once installed and `tmux` enviornment reloaded. Simply use `<prefix>b`.
+Once installed and [`tmux`](https://github.com/tmux/tmux) enviornment reloaded. Simply use `<prefix>b`.
 
 The dashboard shows the time the command was ran, this is so your partner can guestimate how much longer you will be.
 
 Lastly, a random asciiart animal is attached at the bottom in case your partner gets bored.
 
-![](https://i.ibb.co/HT0cCsHW/2025-04-26-00-14.png)
+![terminal-screenshot](https://i.ibb.co/HT0cCsHW/2025-04-26-00-14.png)
 
 ## References
 
