@@ -13,8 +13,9 @@ Add to `.tmux.conf` with [TPM](https://github.com/tmux-plugins/tpm):
 
 ```tmux
 set -g @plugin 'hamolicious/back-in-5'
-LINKDING_TMUX_MESSAGE_SH= # override top message
-LINKDING_TMUX_ART_PATH= # override path where art is chosen randomly from
+BACK_IN_5_MESSAGE_SH= # override top message
+BACK_IN_5_ART_PATH= # override path where art is chosen randomly from
+BACK_IN_5_LAUNCH_KEY= # set the key that launches the panel
 ```
 
 _See [Configuration](#configuration) for more details on variables_
@@ -33,7 +34,7 @@ Lastly, a random asciiart animal is attached at the bottom in case your partner 
 
 The message and art can be overriden with the following environment variables. Place these in your `.tmux.conf` after the plugin definition.
 
-`LINKDING_TMUX_MESSAGE_SH`: A path to a bash script echoing the message, see default below which is used if this variable is left unset.
+`BACK_IN_5_MESSAGE_SH`: A path to a bash script echoing the message, see default below which is used if this variable is left unset.
 
 ```bash
 #!/bin/bash
@@ -45,7 +46,9 @@ echo ""
 echo "🏃 Back Shortly"
 ```
 
-`LINKDING_TMUX_ART_PATH`: A path containing any text files, they will be rendered as a "2D block" of text to ensure ascii art is not messed with. Uses the bundled ascii art animals directory curated from https://www.asciiart.eu/
+`BACK_IN_5_ART_PATH`: A path containing any text files, they will be rendered as a "2D block" of text to ensure ascii art is not messed with. Uses the bundled ascii art animals directory curated from https://www.asciiart.eu/
+
+`BACK_IN_5_LAUNCH_KEY`: The key used to show the pane, default is `"b"`
 
 ## References
 

@@ -16,13 +16,13 @@ center_text_block() {
   done
 }
 
-message_path=${LINKDING_TMUX_MESSAGE_SH:-"$PLUGIN_DIR/assets/default_message.sh"}
+message_path=${BACK_IN_5_MESSAGE_SH:-"$PLUGIN_DIR/assets/default_message.sh"}
 {
   source $message_path
 } | center_text_block
 
 
-art_path=${LINKDING_TMUX_ART_PATH:-"$PLUGIN_DIR/assets/ascii"}
+art_path=${BACK_IN_5_ART_PATH:-"$PLUGIN_DIR/assets/ascii"}
 icons=($(ls $art_path))
 art_file="$art_path/${icons[RANDOM % ${#icons[@]}]}"
 
