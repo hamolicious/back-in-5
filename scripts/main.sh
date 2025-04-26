@@ -16,17 +16,13 @@ center_text_block() {
   done
 }
 
+message_path=${LINKDING_TMUX_MESSAGE_SH:-"$PLUGIN_DIR/assets/default_message.sh"}
 {
-  echo ""
-  echo "☕ Coffee break"
-  echo ""
-  echo "🕔 Started at: $(date "+%H:%M")"
-  echo ""
-  echo "🏃 Back Shortly"
+  source $message_path
 } | center_text_block
 
 
-art_path="$PLUGIN_DIR/assets"
+art_path=${LINKDING_TMUX_ART_PATH:-"$PLUGIN_DIR/assets/ascii"}
 icons=($(ls $art_path))
 art_file="$art_path/${icons[RANDOM % ${#icons[@]}]}"
 
